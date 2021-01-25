@@ -14,6 +14,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('about') }}">About</a>
             </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('posts.index') }}">Articles</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('posts.create') }}">New article</a>
+            </li>  
           </ul>
         </div>
      </nav>
